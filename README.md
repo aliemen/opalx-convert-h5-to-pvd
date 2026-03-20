@@ -20,7 +20,7 @@ python -m pip install -e .
 ### Install from GitHub
 
 ```bash
-python -m pip install "git+https://github.com/<your-username>/partviz.git"
+python -m pip install "git+https://github.com/aliemen/opalx-convert-h5-to-pvd.git"
 ```
 
 ## Usage
