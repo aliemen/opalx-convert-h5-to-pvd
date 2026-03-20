@@ -1,6 +1,6 @@
 # partviz
 
-Convert OPAL H5 phase-space output into ParaView `.vtp` files plus a `.pvd` collection file.
+Convert OPAL H5 phase-space output into ParaView `.vtp` files plus a `.pvd` collection file. For more infos about the H5 files, see [OPALX Manual](https://opalx-project.github.io/Manual/#sec.introduction.output).
 
 ## Features
 
