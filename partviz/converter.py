@@ -66,7 +66,7 @@ def write_step_vtp(step_group, output_file):
     polydata.SetPoints(points)
     polydata.SetVerts(verts)
 
-    for field in ("px", "py", "pz", "q", "sp", "bin"):
+    for field in ("px", "py", "pz", "q", "sp", "bin", "Ex", "Ey", "Ez", "Bx", "By", "Bz"):
         if field in step_group:
             field_values = to_1d_array(step_group, field)
             if len(field_values) == n_particles:
